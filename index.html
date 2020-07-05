@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/todo-list.js"></script>
+    <title>Todo-List</title>
+</head>
+
+<body>
+    <header>
+        <h1>Todo List</h1>
+    </header>
+    <main id="main">
+        <form id="form">
+            <div id="task-container">
+                <input type="text" id="task" placeholder="Task" required>
+            </div>
+            <div id="ele-form-container">
+                <input type="date" id="dt" name="dt" required>
+                <input id="background-task" type="color" name="color">
+                <input id="btn-send" type="submit" value="Enviar">
+            </div>
+        </form>
+        <div id="tasks-container"></div>
+    </main>
+</body>
+
+</html>
