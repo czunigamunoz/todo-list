@@ -1,3 +1,3 @@
 # todo-list
 
-Firts project in JavaScript
+First project in JavaScript
